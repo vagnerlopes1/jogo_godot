@@ -1,0 +1,59 @@
+[gd_scene load_steps=4 format=3 uid="uid://dpglfwytmq8h4"]
+
+[ext_resource type="Script" path="res://principal_menu.gd" id="1_prg32"]
+[ext_resource type="Texture2D" uid="uid://dfiv7dc7mvqug" path="res://Assets_aula1/Botoes/Play.png" id="1_vjs8o"]
+[ext_resource type="Texture2D" uid="uid://bdp0sqhiwmftf" path="res://Assets_aula1/Botoes/Close.png" id="2_76j8x"]
+
+[node name="principal_Menu" type="CanvasLayer"]
+script = ExtResource("1_prg32")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.0583059, 0.406699, 0.443802, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 273.0
+offset_bottom = 273.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 8
+size_flags_vertical = 4
+
+[node name="iniciar_bt" type="Button" parent="VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+text = "INICIAR"
+icon = ExtResource("1_vjs8o")
+
+[node name="sair_bt" type="Button" parent="VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+size_flags_vertical = 8
+text = "SAIR"
+icon = ExtResource("2_76j8x")
+expand_icon = true
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_top = 388.0
+offset_right = 1152.0
+offset_bottom = 559.0
+text = "                                                                                                                                    TUTORIAL
+                           MELANCIA: 1 PONTO                                                                                                                    SPEEDBOOSTER: DOBRO  DE VELOCIDADE
+                           MELANCIA MAL: -1 PONTO E -1 HP                                                                                            JUMPBOOSTER: DOBRO DE PULO
+                           TEMPO :   +15 SEGUNDOS  E 4 PONTOS                                                                                   CORAÇAO: MAIS DOIS DE HP
+                           TEMPO REVERSO: -20 SEGUNDOS E  -3 PONTOS                                                                    CEREJA : 10 PONTOS
+                           ARMADILHA: - 2 HP
+
+
+"
+placeholder_text = "
+"
+editable = false
+virtual_keyboard_enabled = false
+
+[connection signal="pressed" from="VBoxContainer/iniciar_bt" to="." method="_on_iniciar_bt_pressed"]
+[connection signal="pressed" from="VBoxContainer/sair_bt" to="." method="_on_sair_bt_pressed"]
