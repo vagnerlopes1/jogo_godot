@@ -1037,7 +1037,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ecf1v"]
-radius = 13.3873
+radius = 6.7082
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1wxr4"]
 atlas = ExtResource("5_e32ej")
@@ -1859,6 +1859,284 @@ frame_progress = 0.645356
 position = Vector2(428.99, 55.6439)
 shape = SubResource("CircleShape2D_ecf1v")
 
+[node name="cereja2" type="Area2D" parent="."]
+script = ExtResource("5_seyrd")
+
+[node name="cereja5" type="Area2D" parent="cereja2"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja2/cereja5"]
+position = Vector2(1010, 318)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.645356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja2/cereja5"]
+position = Vector2(1010, 320)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja4" type="Area2D" parent="cereja2"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja2/cereja4"]
+position = Vector2(978, 321)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.645356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja2/cereja4"]
+position = Vector2(978, 321)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja3" type="Area2D" parent="cereja2"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja2/cereja3"]
+position = Vector2(1498, 633)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja2/cereja3"]
+position = Vector2(1498, 633)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja2" type="Area2D" parent="cereja2"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja2/cereja2"]
+position = Vector2(1453, 118)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja2/cereja2"]
+position = Vector2(1453, 118)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja2"]
+visible = false
+position = Vector2(610, -76.5)
+scale = Vector2(1, -0.03125)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.645356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja2"]
+position = Vector2(741, -77)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja6" type="Area2D" parent="cereja2"]
+position = Vector2(1680.01, 423.356)
+script = ExtResource("5_seyrd")
+
+[node name="cereja5" type="Area2D" parent="cereja2/cereja6"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja2/cereja6/cereja5"]
+position = Vector2(299.99, -357.356)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.645356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja2/cereja6/cereja5"]
+position = Vector2(299.99, -357.356)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja4" type="Area2D" parent="cereja2/cereja6"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja2/cereja6/cereja4"]
+position = Vector2(283.99, -357.356)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.645356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja2/cereja6/cereja4"]
+position = Vector2(283.99, -357.356)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja3" type="Area2D" parent="cereja2/cereja6"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja2/cereja6/cereja3"]
+position = Vector2(62.9905, -69.3561)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja2/cereja6/cereja3"]
+position = Vector2(62.9905, -69.3561)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja2" type="Area2D" parent="cereja2/cereja6"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja2/cereja6/cereja2"]
+position = Vector2(455.99, 55.6439)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja2/cereja6/cereja2"]
+position = Vector2(453.99, 55.6439)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja2/cereja6"]
+position = Vector2(428.99, 55.6439)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.645356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja2/cereja6"]
+position = Vector2(428.99, 55.6439)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja3" type="Area2D" parent="."]
+script = ExtResource("5_seyrd")
+
+[node name="cereja5" type="Area2D" parent="cereja3"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja3/cereja5"]
+position = Vector2(1010, 318)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.645356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja3/cereja5"]
+position = Vector2(1010, 320)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja4" type="Area2D" parent="cereja3"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja3/cereja4"]
+position = Vector2(978, 321)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.645356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja3/cereja4"]
+position = Vector2(978, 321)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja3" type="Area2D" parent="cereja3"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja3/cereja3"]
+position = Vector2(1498, 633)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja3/cereja3"]
+position = Vector2(1498, 633)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja2" type="Area2D" parent="cereja3"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja3/cereja2"]
+position = Vector2(1453, 118)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja3/cereja2"]
+position = Vector2(1453, 118)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja3"]
+position = Vector2(376, 219)
+rotation = -3.14159
+scale = Vector2(1.61998, -0.53125)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.503995
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja3"]
+position = Vector2(376, 219)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja6" type="Area2D" parent="cereja3"]
+position = Vector2(1680.01, 423.356)
+script = ExtResource("5_seyrd")
+
+[node name="cereja5" type="Area2D" parent="cereja3/cereja6"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja3/cereja6/cereja5"]
+position = Vector2(299.99, -357.356)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.645356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja3/cereja6/cereja5"]
+position = Vector2(299.99, -357.356)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja4" type="Area2D" parent="cereja3/cereja6"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja3/cereja6/cereja4"]
+position = Vector2(283.99, -357.356)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.645356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja3/cereja6/cereja4"]
+position = Vector2(283.99, -357.356)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja3" type="Area2D" parent="cereja3/cereja6"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja3/cereja6/cereja3"]
+position = Vector2(62.9905, -69.3561)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja3/cereja6/cereja3"]
+position = Vector2(62.9905, -69.3561)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja2" type="Area2D" parent="cereja3/cereja6"]
+script = ExtResource("5_seyrd")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja3/cereja6/cereja2"]
+position = Vector2(455.99, 55.6439)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja3/cereja6/cereja2"]
+position = Vector2(453.99, 55.6439)
+shape = SubResource("CircleShape2D_ecf1v")
+
+[node name="cereja" type="AnimatedSprite2D" parent="cereja3/cereja6"]
+position = Vector2(428.99, 55.6439)
+sprite_frames = SubResource("SpriteFrames_syett")
+animation = &"cereja"
+autoplay = "cereja"
+frame_progress = 0.645356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cereja3/cereja6"]
+position = Vector2(428.99, 55.6439)
+shape = SubResource("CircleShape2D_ecf1v")
+
 [node name="coletavel" type="Area2D" parent="."]
 script = ExtResource("4_mvp7e")
 
@@ -2376,7 +2654,7 @@ offset_bottom = -725.96
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("7_cb5c3")
-seg_padrao = 15
+seg_padrao = 30
 
 [node name="MarginContainer" type="MarginContainer" parent="hud/Control"]
 layout_mode = 1
@@ -2469,6 +2747,66 @@ visible = false
 [connection signal="body_entered" from="cereja/cereja6/cereja2" to="cereja/cereja6/cereja2" method="_on_body_entered"]
 [connection signal="body_entered" from="cereja/cereja6/cereja2" to="coletavel" method="_on_cereja_body_entered"]
 [connection signal="body_shape_entered" from="cereja/cereja6/cereja2" to="cereja/cereja6/cereja2" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja2" to="cereja2" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja2" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja2" to="cereja2" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja2/cereja5" to="cereja2/cereja5" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja2/cereja5" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja2/cereja5" to="cereja2/cereja5" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja2/cereja4" to="cereja2/cereja4" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja2/cereja4" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja2/cereja4" to="cereja2/cereja4" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja2/cereja3" to="cereja2/cereja3" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja2/cereja3" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja2/cereja3" to="cereja2/cereja3" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja2/cereja2" to="cereja2/cereja2" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja2/cereja2" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja2/cereja2" to="cereja2/cereja2" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja2/cereja6" to="cereja2/cereja6" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja2/cereja6" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja2/cereja6" to="cereja2/cereja6" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja2/cereja6/cereja5" to="cereja2/cereja6/cereja5" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja2/cereja6/cereja5" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja2/cereja6/cereja5" to="cereja2/cereja6/cereja5" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja2/cereja6/cereja4" to="cereja2/cereja6/cereja4" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja2/cereja6/cereja4" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja2/cereja6/cereja4" to="cereja2/cereja6/cereja4" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja2/cereja6/cereja3" to="cereja2/cereja6/cereja3" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja2/cereja6/cereja3" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja2/cereja6/cereja3" to="cereja2/cereja6/cereja3" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja2/cereja6/cereja2" to="cereja2/cereja6/cereja2" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja2/cereja6/cereja2" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja2/cereja6/cereja2" to="cereja2/cereja6/cereja2" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja3" to="cereja3" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja3" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja3" to="cereja3" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja3/cereja5" to="cereja3/cereja5" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja3/cereja5" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja3/cereja5" to="cereja3/cereja5" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja3/cereja4" to="cereja3/cereja4" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja3/cereja4" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja3/cereja4" to="cereja3/cereja4" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja3/cereja3" to="cereja3/cereja3" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja3/cereja3" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja3/cereja3" to="cereja3/cereja3" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja3/cereja2" to="cereja3/cereja2" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja3/cereja2" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja3/cereja2" to="cereja3/cereja2" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja3/cereja6" to="cereja3/cereja6" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja3/cereja6" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja3/cereja6" to="cereja3/cereja6" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja3/cereja6/cereja5" to="cereja3/cereja6/cereja5" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja3/cereja6/cereja5" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja3/cereja6/cereja5" to="cereja3/cereja6/cereja5" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja3/cereja6/cereja4" to="cereja3/cereja6/cereja4" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja3/cereja6/cereja4" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja3/cereja6/cereja4" to="cereja3/cereja6/cereja4" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja3/cereja6/cereja3" to="cereja3/cereja6/cereja3" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja3/cereja6/cereja3" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja3/cereja6/cereja3" to="cereja3/cereja6/cereja3" method="_on_body_shape_entered"]
+[connection signal="body_entered" from="cereja3/cereja6/cereja2" to="cereja3/cereja6/cereja2" method="_on_body_entered"]
+[connection signal="body_entered" from="cereja3/cereja6/cereja2" to="coletavel" method="_on_cereja_body_entered"]
+[connection signal="body_shape_entered" from="cereja3/cereja6/cereja2" to="cereja3/cereja6/cereja2" method="_on_body_shape_entered"]
 [connection signal="body_entered" from="coletavel" to="coletavel" method="_on_body_entered"]
 [connection signal="body_shape_entered" from="coletavel" to="Player" method="_on_area_2d_body_shape_entered"]
 [connection signal="body_shape_entered" from="coletavel" to="coletavel" method="_on_body_shape_entered"]

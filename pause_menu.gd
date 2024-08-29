@@ -16,6 +16,11 @@ func _on_pause_bt_pressed():
 func _on_reiniciar_bt_pressed():
 	get_tree().paused = false 
 	get_tree().change_scene_to_file("res://projeto.tscn")
+	Global.pontos = 0
+	Global.vida = 5
+	Global.moveSpeed = 100
+	Global.JUMP_VELOCITY = -400
+	
 	
 	
 	

@@ -26,7 +26,7 @@ func _ready():
 	
 func _process(delta):
 	contador_melons.text = str("%03d" % Global.pontos)
-	if minutos == 0 && segundos == 0:
+	if minutos == 0 && segundos < 0:
 		get_tree().reload_current_scene()
 		Global.pontos = 0
 		emit_signal("tempo_acabou")
@@ -47,7 +47,7 @@ func _on_timer_cont_timeout():
 	if segundos < 0:
 		if minutos > 0:
 			minutos -= 1
-			segundos = 60
+			segundos += 60
 			
 	segundos -=1
  
